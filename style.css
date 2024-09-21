@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fuente1 ;
+    src: url(font/josephsophia.ttf);
+}
+header{
+    background-color: rgb(237, 211, 10);
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+}
+body{
+    
+}
+html{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: fuente1;
+    font-size: 22px;
+}
+nav{
+    background-color: aquamarine;
+    padding: 15px;
+
+}
+nav a{
+    background-color: rgb(145, 145, 201);
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+nav a:hover{
+    background-color:green ;
+    color: aqua;
+}
+
+main{
+    /* background-color: bisque; */
+    min-height: 100vh;
+     background-image: url(Imagenes/Busbunny.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+/*     background: radial-gradient(rgb(10, 142, 23), rgb(2, 2, 12));*/
+padding: 30px 0;}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 40px;
+
+}
+p{
+   color: white;
+}
+.px{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto 25px; 
+    background-color: rgba(224, 161, 79, 0.5);
+    border: 2px solid maroon;
+}
+.cuadro-rem{
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(142, 48, 142, 0.5);
+    border: .125rem solid green ;
+    
+}
+.em{
+    font-size: 25px;
+}
+.cuadro-em{
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(45, 160, 62, 0.5);
+    border: .125rem solid rgb(97, 3, 42) ;
+}
+img{
+    width: 100%;
+}
+.columna{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.columna.dos{
+    width: 10%;
+}
